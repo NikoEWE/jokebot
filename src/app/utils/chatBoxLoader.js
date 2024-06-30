@@ -12,7 +12,7 @@ export default function chatBoxLoader (){
     //Right away we can run the script to get the element in where the chatbox is going to be executed.
 
       MoveoAI.init({ 
-        integrationId: "6d9b0f7c-95d2-44ba-822a-f065e4692900",
+        integrationId: "f48d48b4-a011-42f3-828c-3aa19384b669", host: "https://channels-ws.dev.moveo.ai",
         element:document.getElementById('embed')})
         //Once it's loaded a log message will be sended to confirm this operation. In case something went wrong
         //it'll log the error.
